@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.upper {
+  background-color: #4caf50;
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+}
+
+.upper button{
+    background-color: #000000;
+    color: #4caf50;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.bottom {
+  background: #833ab4;
+    border-radius: 0 0 10px 10px;
+  background: linear-gradient(
+    74deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+input,
+button {
+  margin: 10px 0;
+  padding: 8px 12px;
+  font-size: 16px;
+}
+img {
+  max-width: 300px;
+  margin: 15px 0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.progress-container {
+  width: 100%;
+  max-width: 300px;
+  background: #eee;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.progress-bar {
+  height: 20px;
+  width: 0%;
+  background: #4caf50;
+  transition: width 0.4s ease;
+}
+.progress-text {
+  text-align: center;
+  margin-top: 5px;
+  font-weight: bold;
+}
+textarea {
+  width: 100%;
+  max-width: 600px;
+  height: 200px;
+  margin-top: 15px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  resize: vertical;
+}
